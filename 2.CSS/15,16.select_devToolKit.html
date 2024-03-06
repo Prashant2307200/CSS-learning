@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selector</title>
+    <style>
+        /* grouping selector */
+        table,caption,td,th {
+            border: 2px solid black;
+        } 
+
+        /* Element selector */
+        caption {
+            background-color: rgb(201, 168, 226);
+        }
+        /* id selector */
+        #summary {
+            border-color: rgb(174, 92, 92);
+            background-color: rgba(195, 158, 85, 0.783);
+        }
+        /* class selector  */
+        .cont1{
+            color: rgb(146, 133, 156);
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Css selector</h1>
+    <p>This is simple paragraph to demostrate css selector</p>
+    
+
+    <table >
+        <caption>Data</caption>
+        <thead class="cont1" >
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+                <th>Pass/Fail</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody class="cont1">
+            <tr>
+                <td>raj</td>
+                <td>43</td>
+                <td>pass</td>
+                <td rowspan="2">A1</td>
+            </tr>
+            <tr>
+                <td>ram</td>
+                <td>545</td>
+                <td>pass</td>
+            </tr>
+            <tr>
+                <td>raku</td>
+                <td>33435</td>
+                <td>fail</td>
+                <td>B3</td>
+            </tr>
+        </tbody>
+        <tfoot class="cont1">
+            <tr>
+                <th colspan="3" id="summary">
+                    Overall good Result
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }.container {
+            border: 2px solid purple ;
+            width: 900px;
+            margin:37px auto;
+            background-color: rgb(228, 182, 182);
+        }
+        .item{
+            border : 2px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(245, 220, 174);
+        }
+        #fruits{
+            width: 48%;
+            float : left; /*overflow*/
+        }
+        #computer{
+            width: 50%;
+            float : right;
+        }
+        #stationary{
+            width: 100%;
+            clear:both;
+            /* float : left;
+            clear : left clear : right */
+        }
+        p,h1{
+            text-align: left; /*center right justify */
+        }
+        h1{
+            width: 50%;
+            margin:23px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit assumenda quo soluta voluptas suscipit aspernatur qui neque dolores quas? Maiores perferendis enim commodi aliquam exercitationem illo quia sapiente accusantium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quasi deleniti nobis. Nisi voluptatem tempore qui accusamus, placeat dolor in culpa et? Laudantium ad at, numquam pariatur tempore repellendus culpa.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit assumenda quo soluta voluptas suscipit aspernatur qui neque dolores quas? Maiores perferendis enim commodi aliquam exercitationem illo quia sapiente accusantium! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum molestiae excepturi exercitationem maiores doloribus sunt, sit incidunt, aut vero aperiam possimus perspiciatis nemo eveniet error ratione. Aliquam nulla deserunt </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit assumenda quo soluta voluptas suscipit aspernatur qui neque dolores quas? Maiores perferendis enim commodi aliquam exercitationem illo quia sapiente accusantium!</p>
+        </div>
+    </div>
+</body>
+</html>

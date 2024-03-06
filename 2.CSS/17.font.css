@@ -1,0 +1,12 @@
+p{
+    font-size: 30px;
+    line-height: 10em;
+    font-weight:bold;
+    font-style: italic;
+}h1{
+    /* webfont */
+    font-family: 'Rubik Puddles', cursive;
+    /* font stack :
+    font-family: 'Courier New', Courier, monospace; */
+    /* font-family: cursive,sans; websafe font */
+}

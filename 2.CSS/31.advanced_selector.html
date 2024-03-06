@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black ;
+            font-weight: bold ;
+            text-align: center ;
+        }/*select all p in div child or grand child any more*/
+        div + p{ 
+            color: yellow ;
+            font-weight: bold ;
+            /* div li p : general
+            li : not sufficient
+             > or + : direcrt or private */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is more for selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is grand child </p></li>
+                <p>This is para in ul</p>
+            </ul>
+            <p>This is paragraph</p>
+        </div>
+        <p>this is another paragraph</p>
+    </div>
+    <p>This is outer most paragraph</p>
+</body>
+</html>

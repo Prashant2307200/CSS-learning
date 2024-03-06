@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: auto;
+            width: 300px;
+        }input{
+            display: block;
+        }input[type='text'] {
+            padding: 23px;
+            border:2px solid blueviolet;
+        }a[target]{
+            font-size: 34px;
+            color: violet;
+        }a[target='_self']{
+            color:aquamarine;
+            font-size: 15px;
+        }input[type='password']{
+            color:rgb(250, 144, 6);
+            border: 4px solid black;
+        }li:nth-child(even){
+            color:rgb(255, 0, 106);
+        }/*3 2n+0 2n+1 3n+3 odd even n=0*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a target="_blank" href="http://google.com">Go to Google</a></h1>
+        <h1><a target="_self" href="http://facebook.com">Go to facebook</a></h1>
+        <form action="">
+            <input type="text" placeholder="name">
+            <input type="password" name="" id="" placeholder="password">
+            <input type="button" value="Submit">
+        </form> 
+        <ul>
+            <li class="item" id="item-1">item-1</li>
+            <li class="item" id="item-2">item-2</li>
+            <li class="item" id="item-3">item-3</li>
+            <li class="item" id="item-4">item-4</li>
+            <li class="item" id="item-5">item-5</li>
+        </ul>
+        </div>
+    </body>
+</html>
